@@ -1,0 +1,49 @@
+.contacts__callback{
+    display: flex;
+    
+}
+
+.contacts__smartphone{
+    fill: var(--fill-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    
+}
+.contacts__icon{
+    fill: var(--fill-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    
+}
+
+
+.contacts__items  li :hover,
+.contacts__items  li :focus
+{
+    color: var(--accent);
+    fill: var(--accent);
+    
+
+}
+
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.contacts .menu__item{
+    margin-right: 50px;
+}
+
+.contacts__icon{
+    width: 16px;
+    height: 12px;
+    margin-right: 8px;
+
+}
+
+.contacts__smartphone{
+    width: 10px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.contacts .menu__item:last-child{
+    margin-right: 0;}

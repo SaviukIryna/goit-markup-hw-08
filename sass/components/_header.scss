@@ -1,0 +1,25 @@
+  /* header */
+  .header{
+    /* max-width: 1600px; */
+    border-bottom: 1px solid var(--border-color) ;
+    
+  }
+
+    .header__navigation{
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+  }
+
+  .desktop-navigation{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    display: none;
+    @media (min-width:768px) {
+display: block;
+    }
+  }
+
+

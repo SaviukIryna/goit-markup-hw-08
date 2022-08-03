@@ -1,0 +1,107 @@
+.our-team{
+    background-color: var(--bgd-secondary-color);
+    
+
+}
+.our-team-item{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-header{
+
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+
+
+
+}
+.our-team-sub-header{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: var(--title-text-color);
+    padding-top: 30px;
+
+}
+.our-team-text{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--info-text-color);
+    margin-top: 10px;
+
+}
+.our-team-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-team-item:not(:last-child){
+    margin-right: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    padding-bottom: 30px;
+    
+   
+}
+.team-icons{
+    margin-right: 10px;
+    
+}
+
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    
+}
+.icon-link:hover,
+.icon-link:focus{
+    background-color: var(--accent);
+    
+   
+    
+}
+  .icon-link:hover .social-icon,
+  .icon-link:focus .social-icon
+  {
+    fill: var(--body-bgd);
+    
+}
+.social-icon{
+
+    fill: var(--fill-social-link-color);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 20x;
+    height: 20px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.our-team-content{
+    background-color: var(--body-bgd);
+    
+}
