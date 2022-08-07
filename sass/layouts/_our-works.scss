@@ -61,22 +61,33 @@ color: #FFFFFF;
 }
 
 .our-works{
+    display: block;
+    margin: 0 auto;
+    @media(min-width:768px){
     display: flex;
     flex-wrap:  wrap;
+    }
     
 }
 
 .our-works-item{
     margin-bottom: 30px;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     margin-right: 30px;
+    @media (min-width:480px) {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
     
    
 }
 
 
 .our-works-item:nth-child(3n){
+    @media(min-width:1200px){
     margin-right: 0px;
+    }
 }
 .our-works-item:nth-child(n + 7){
     margin-bottom: 0px;

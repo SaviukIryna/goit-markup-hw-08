@@ -17,6 +17,13 @@
 
     <header class="header">
         <div class="container  header__navigation">
+            <div class="mobile__button ">
+                <button class="for__mobile__button js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-munu"> 
+                    <svg class="mobile-icon-button" width="20" height="20">
+                    <use href="./images/icons.svg#mobile-button-icon"></use>
+                     </svg>
+                </button>
+            </div> 
         <nav class="menu">
             <a class="logo" href="/"><span class="web">Web</span>Studio</a>
             <div class="desktop-navigation">
@@ -27,6 +34,8 @@
             </ul>
             </div>
         </nav>
+
+        
         <div class="desktop-navigation">
         <ul class="contacts">
            <li class="menu__item">
@@ -57,6 +66,7 @@
             </div>
             </li>
         </ul>
+        
         </div>
     </div>
     
@@ -65,7 +75,7 @@
      </header>
     <main>
         <section class="section hero">
-
+        
             <h1 class="title title--large hero__title">Ефективні рішення для вашого бізнеса</h1>
             <button class="order-button" type="button" data-modal-open >Замовити послугу</button>
 
@@ -154,7 +164,7 @@
             <ul class="our-team-list">
                 <li class="our-team-item">
 
-                        <img src="./images/team/1.jpg" width="270" height="260" alt="Ігор Дем'яненко">
+                        <img src="./images/team/1.jpg"  height="260" alt="Ігор Дем'яненко">
                         <div class="our-team-content">
                     <h3 class="our-team-sub-header">Ігор Дем'яненко</h3>
                     <p class="our-team-text">Product designer</p>
@@ -195,7 +205,7 @@
                 </div>
                 </li>
                 <li class="our-team-item">
-                        <img src="./images/team/2.jpg" width="270" height="260"  alt="Ольга Рєпіна">
+                        <img src="./images/team/2.jpg"  height="260"  alt="Ольга Рєпіна">
                             <div class="our-team-content">
                          <h3 class="our-team-sub-header">Ольга Рєпіна</h3>
                         <p class="our-team-text">Frontend Developer</p>
@@ -237,7 +247,7 @@
                 </li>
                 <li class="our-team-item">
 
-                        <img src="./images/team/3.jpg" width="270" height="260" alt="Микола Тарасов">
+                        <img src="./images/team/3.jpg"  height="260" alt="Микола Тарасов">
                         <div class="our-team-content">
                         <h3 class="our-team-sub-header">Микола Тарасов</h3>
                         <p class="our-team-text">Marketing</p>
@@ -279,7 +289,7 @@
                 </li>
                 <li class="our-team-item">
 
-                        <img src="./images/team/4.jpg" width="270" height="260" alt="Михайло Єрмаков">
+                        <img src="./images/team/4.jpg"  height="260" alt="Михайло Єрмаков">
                         <div class="our-team-content">
                     <h3 class="our-team-sub-header">Михайло Єрмаков</h3>
                     <p class="our-team-text">UI Designer</p>
@@ -493,6 +503,8 @@
             </div>
                 </div>
 
+                
+
     <div class="form-field">
         <label for="user-tel" class="form-label">Телефон</label>
         <div class="form-field-inner">
@@ -529,5 +541,6 @@
 </div>
     </div>
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
