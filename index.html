@@ -16,15 +16,7 @@
 
 
     <header class="header">
-        <div class="container  header__navigation">
-            <div class="mobile__button ">
-                <button class="for__mobile__button js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-munu"> 
-                    <svg class="mobile-icon-button" width="20" height="20">
-                    <use href="./images/icons.svg#mobile-button-icon"></use>
-                     </svg>
-                </button>
-            </div> 
-        <nav class="menu">
+<nav class="menu">
             <a class="logo" href="/"><span class="web">Web</span>Studio</a>
             <div class="desktop-navigation">
             <ul class="menu__navigation">
@@ -35,6 +27,12 @@
             </div>
         </nav>
 
+        <div class="container" >
+<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">open</button>
+<ul class="menu">
+    <li>dhfhf</li>
+</ul>
+</div>
         
         <div class="desktop-navigation">
         <ul class="contacts">
@@ -70,10 +68,18 @@
         </div>
     </div>
     
-        
+   
     
      </header>
-    <main>
+     <main>
+
+<div class="menu-container js-menu-container" id="mobile-munu">
+<button class="menu-toggle js-close-menu">close</button>
+<ul class="menu-mobile">
+    <li>dhfhf</li>
+</ul>
+</div>
+
         <section class="section hero">
         
             <h1 class="title title--large hero__title">Ефективні рішення для вашого бізнеса</h1>
