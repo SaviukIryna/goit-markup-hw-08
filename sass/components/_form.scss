@@ -62,12 +62,16 @@
 }
 
 .form-checkbox{
-    
+    @media(min-width:320px){
     margin-bottom: 18px;
-    font-size: 14px;
+    font-size: 12px;
    line-height: 24px;
    letter-spacing: 0.03em;
    color: var(--fill-color);
+    }
+    @media(min-width:768px){
+    font-size: 14px;
+    }
 }
 
 .form-link{

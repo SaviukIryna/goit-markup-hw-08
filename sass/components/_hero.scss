@@ -23,9 +23,7 @@ $hero-image-gradient: linear-gradient(
     background-position: center;
     background-size: cover;
 
-    @media (min-width: 1200px){
-        width: 1200px;
-    }
+   
 
     &__title{
    

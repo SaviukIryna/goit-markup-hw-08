@@ -4,6 +4,7 @@
 
 @import "./base/common";
 @import "./base/reset";
+@import "./base/placeholders";
 
 @import "./components/header";
 @import "./components/hero";
@@ -19,6 +20,7 @@
 @import "./components/section";
 @import "./components/container";
 @import "./components/title";
+@import "./components/mobile_menu";
 
 @import "./layouts/what-we-do";
 @import "./layouts/our-clients";
