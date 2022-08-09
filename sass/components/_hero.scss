@@ -1,42 +1,142 @@
-$hero-image-gradient: linear-gradient(
-  180deg,
-  rgba(47, 48, 58, 0.4) 50%,
-  rgba(47, 48, 58, 0.4) 50%
-);
+// $hero-image-gradient: linear-gradient(
+//   180deg,
+//   rgba(47, 48, 58, 0.4) 50%,
+//   rgba(47, 48, 58, 0.4) 50%
+// );
 
-.hero{
-    background-color: var(--bgd-color);
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-        )
-    ,
-    url(../images/projects/herofone.jpg)
-    ;
-    text-align: center;
-    padding: 200px 0;
-    max-width: 1600px;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+// .hero{
+//     background-color: var(--bgd-color);
+//     background-image: linear-gradient(
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//         )
+//     ,
+//     url(../images/projects/herofone.jpg)
+//     ;
+//     text-align: center;
+//     padding: 200px 0;
+//     max-width: 1600px;
+//     max-height: 600px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
 
    
 
-    &__title{
+//     &__title{
    
-        @media (min-width:768px) {
-            margin: 0 auto;
-            max-width: 600px;
-            display: block;
-    }}
+//         @media (min-width:768px) {
+//             margin: 0 auto;
+//             max-width: 600px;
+//             display: block;
+//     }}}
 
 
-}
-
-
-
-
-
+  .hero {
+            max-width: 480px;
+            height: 400px;
+            padding-top: 118px;
+            padding-bottom: 118px;
+            text-align: center;
+            background-color: #c4c4c4;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+              ),
+              url(../images/projects/heromob.jpg);
+            background-size: cover;
+          }
+          
+          @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            .hero {
+              background-image: linear-gradient(
+                  to right,
+                  rgba(47, 48, 58, 0.4),
+                  rgba(47, 48, 58, 0.4)
+                ),
+                url(../images/projects/heromob2px.jpg);
+            }
+          }
+          
+          @media screen and (min-width: 481px) {
+            .hero {
+              max-width: 768px;
+              height: 400px;
+              padding-top: 118px;
+              padding-bottom: 118px;
+              background-image: linear-gradient(
+                  to right,
+                  rgba(47, 48, 58, 0.4),
+                  rgba(47, 48, 58, 0.4)
+                ),
+                url(../images/projects/herotab1px.jpg);
+              background-size: cover;
+            }
+          
+            @media screen and (min-device-pixel-ratio: 2),
+              screen and (min-resolution: 192dpi),
+              screen and (min-resolution: 2dppx) {
+              .hero {
+                background-image: linear-gradient(
+                    to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)
+                  ),
+                  url(../images/projects/herotab2px.jpg);
+              }
+            }
+          }
+          
+          @media screen and (min-width: 769px) {
+            .hero {
+              max-width: 1600px;
+              height: 600px;
+              padding-top: 200px;
+              padding-bottom: 200px;
+              background-image: linear-gradient(
+                  to right,
+                  rgba(47, 48, 58, 0.4),
+                  rgba(47, 48, 58, 0.4)
+                ),
+                url(../images/projects/herofone.jpg);
+              background-size: cover;
+            }
+          
+            @media screen and (min-device-pixel-ratio: 2),
+              screen and (min-resolution: 192dpi),
+              screen and (min-resolution: 2dppx) {
+              .hero {
+                background-image: linear-gradient(
+                    to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)
+                  ),
+                  url(../images/projects/herofone@2px.jpg);
+              }
+            }
+          }
+          
+        //   .hero__title {
+        //     max-width: 360px;
+        //     margin: 0px auto 30px auto;
+        //     font-weight: 900;
+        //     font-size: 26px;
+        //     line-height: 1.62;
+        //     letter-spacing: 0.06em;
+        //     text-align: center;
+        //     color: $whiteTextColor;
+        //     text-transform: uppercase;
+          
+        //     @media screen and (min-width: 1200px) {
+        //       max-width: 696px;
+        //       font-size: 44px;
+        //       line-height: 1.36;
+        //     }
+        //   }
