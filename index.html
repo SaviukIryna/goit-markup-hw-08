@@ -203,8 +203,34 @@
             <h2 class="team-header">Наша команда</h2>
             <ul class="our-team-list">
                 <li class="our-team-item">
-
-                        <img src="./images/team/1.jpg"  height="260" alt="Ігор Дем'яненко">
+                    <picture>
+                        <source
+                          srcset="
+                            ./images/team_mob/1_1px.jpg    1x,
+                            ./images/team_mob/1_2px.jpg  2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team/1.jpg     1x,
+                          ./images/team/1_2x.jpg .jpg 2x
+                          "
+                          media="(min-width: 1200px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team_tab/igor1px.jpg  1x,
+                          ./images/team_tab/igor2px.jpg  2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+        
+                        <img src="./images/team/1.jpg"  height="260" alt="Ігор Дем'яненко"/>
+                      </picture>
+                        
                         <div class="our-team-content">
                     <h3 class="our-team-sub-header">Ігор Дем'яненко</h3>
                     <p class="our-team-text">Product designer</p>

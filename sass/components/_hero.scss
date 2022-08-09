@@ -1,40 +1,4 @@
-// $hero-image-gradient: linear-gradient(
-//   180deg,
-//   rgba(47, 48, 58, 0.4) 50%,
-//   rgba(47, 48, 58, 0.4) 50%
-// );
-
-// .hero{
-//     background-color: var(--bgd-color);
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//         )
-//     ,
-//     url(../images/projects/herofone.jpg)
-//     ;
-//     text-align: center;
-//     padding: 200px 0;
-//     max-width: 1600px;
-//     max-height: 600px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover;
-
-   
-
-//     &__title{
-   
-//         @media (min-width:768px) {
-//             margin: 0 auto;
-//             max-width: 600px;
-//             display: block;
-//     }}}
-
-
-  .hero {
+ .hero {
             max-width: 480px;
             height: 400px;
             padding-top: 118px;
