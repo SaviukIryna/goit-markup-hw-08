@@ -179,19 +179,35 @@
                 
                 <li class="what-we-do-item">
                   <div class="what-we-do-item-image">
-                    <img src="./images/whtwedo/1.jpg" width="370" alt="робоче місце за столом">
+                    <img
+                    srcset="
+                    ./images/whtwedo/1.jpg  1x,
+                    ./images/whtwedo/111.jpg 2x
+                  "
+                    src="./images/whtwedo/1.jpg" width="370" alt="робоче місце за столом">
                     <h4 class="what-we-do-subheader">Десктопні додатки</h4>
                     </div>
                 </li>
                 <li class="what-we-do-item">
                     <div class="what-we-do-item-image">
-                    <img src="./images/whtwedo/2.jpg" width="370"  alt="робота за допомогою телефона та ноутбука">
+                    <img 
+                    srcset="
+                    ./images/whtwedo/2.jpg  1x,
+                    ./images/whtwedo/112.jpg 2x
+                  "
+                    src="./images/whtwedo/2.jpg" width="370"  alt="робота за допомогою телефона та ноутбука"/>
                     <h4 class="what-we-do-subheader">Мобільні додатки</h4>
                      </div>
                 </li>
                 <li class="what-we-do-item">
                     <div class="what-we-do-item-image">
-                    <img src="./images/whtwedo/3.jpg" width="370" alt="планшет">
+                    <img 
+
+                    srcset="
+                    ./images/whtwedo/3.jpg  1x,
+                    ./images/whtwedo/113.jpg 2x
+                  "
+                    src="./images/whtwedo/3.jpg" width="370" alt="планшет"/>
                     <h4 class="what-we-do-subheader">Дизайнерські рішення</h4>
                     </div>
                 </li>
@@ -215,7 +231,7 @@
                         <source
                           srcset="
                           ./images/team/1.jpg     1x,
-                          ./images/team/1_2x.jpg .jpg 2x
+                          ./images/team/1_2x.jpg  2x
                           "
                           media="(min-width: 1200px)"
                         />
@@ -271,7 +287,35 @@
                 </div>
                 </li>
                 <li class="our-team-item">
-                        <img src="./images/team/2.jpg"  height="260"  alt="Ольга Рєпіна">
+                    <picture>
+                        <source
+                          srcset="
+                          ./images/team_mob/2_1px.jpg   1x,
+                          ./images/team_mob/2_2px.jpg   2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team/2.jpg    1x,
+                          ./images/team/2_2px.jpg   2x
+                          "
+                          media="(min-width: 1200px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team_tab/olga1.jpg    1x,
+                          ./images/team_tab/olga2.jpg    2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+        
+                        <img src="./images/team/2.jpg"  height="260"  alt="Ольга Рєпіна"/>
+                    
+                      </picture>
+                        
                             <div class="our-team-content">
                          <h3 class="our-team-sub-header">Ольга Рєпіна</h3>
                         <p class="our-team-text">Frontend Developer</p>
@@ -312,8 +356,35 @@
                     </div>
                 </li>
                 <li class="our-team-item">
-
-                        <img src="./images/team/3.jpg"  height="260" alt="Микола Тарасов">
+                    <picture>
+                        <source
+                          srcset="
+                          ./images/team_mob/4_2px.jpg   1x,
+                          ./images/team_mob/4_1px.jpg   2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team/3.jpg    1x,
+                          ./images/team/3_2px.jpg   2x
+                          "
+                          media="(min-width: 1200px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team_tab/mukola1.jpg    1x,
+                          ./images/team_tab/mukola2.jpg    2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+        
+                        <img src="./images/team/3.jpg"  height="260" alt="Микола Тарасов"/>
+                    
+                      </picture>
+                        
                         <div class="our-team-content">
                         <h3 class="our-team-sub-header">Микола Тарасов</h3>
                         <p class="our-team-text">Marketing</p>
@@ -354,8 +425,35 @@
                    </div>
                 </li>
                 <li class="our-team-item">
-
+                    <picture>
+                        <source
+                          srcset="
+                          ./images/team_mob/3_1.jpg   1x,
+                          ./images/team_mob/3_2.jpg   2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team/4.jpg 1x,
+                          ./images/team/4_2px.jpg 2x
+                          "
+                          media="(min-width: 1200px)"
+                        />
+        
+                        <source
+                          srcset="
+                          ./images/team_tab/muhailo1.jpg    1x,
+                          ./images/team_tab/muhailo2.jpg    2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+        
                         <img src="./images/team/4.jpg"  height="260" alt="Михайло Єрмаков">
+                    
+                      </picture>
+                        
                         <div class="our-team-content">
                     <h3 class="our-team-sub-header">Михайло Єрмаков</h3>
                     <p class="our-team-text">UI Designer</p>
