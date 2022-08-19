@@ -24,7 +24,7 @@
            
          <button  
          type="button" 
-         class="menu-button is-open" 
+         class="menu-button" 
          aria-expanded="false"
          aria-controls="mobile-menu-container"
          data-menu-button>
@@ -35,7 +35,7 @@
             </button>
 
             
-            <div class="mobile-menu-container is-open" id="mobile-menu-container" data-menu >
+            <div class="mobile-menu-container" id="mobile-menu-container" data-menu >
                 <div class="mobile-navigation">
                    <ul class="mobile__menu__navigation">
                        <li class="menu__item mobile__menu--item"><a class="link--mobile  current" href="index.html">Студія</a> </li>
@@ -82,7 +82,7 @@
             <div class="contacts__callback">
                 <ul class="contacts__items">
                 <li>
-            <a class="link" href="mailto:info@devstudio.com">
+            <a class="contacts-link" href="mailto:info@devstudio.com">
             <svg class="contacts__icon" aria-hidden="true">
                 <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
@@ -96,7 +96,7 @@
                 <ul class="contacts__items">
                 <li>
 
-                <a class="link" href="tel:+380961111111">
+                <a class="contacts-link" href="tel:+380961111111">
                     <svg class="contacts__smartphone" aria-hidden="true">
                         <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -624,10 +624,12 @@
                         <label for="user-email-footer"></label>
                         <input class="footer-input" id="user-email-footer" name="user-email-footer" type="email" placeholder="E-mail" required>
                         <div class="submit-button-content">
-                        <button class="footer-submit-button" type="submit">Підписатися</button>
-                        <svg class="footer-submit-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-telegram"></use>
-                        </svg>
+                        <button class="footer-submit-button" type="submit">Підписатися
+                            <svg class="footer-submit-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-telegram"></use>
+                                </svg>
+                        </button>
+                        
                     </div>
                     </div>
                 </form>
