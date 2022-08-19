@@ -498,6 +498,11 @@ p {
   display: -ms-flexbox;
   display: flex;
 }
+@media (min-width: 768px) {
+  .contacts__callback {
+    margin-top: 10px;
+  }
+}
 
 .contacts__smartphone {
   fill: var(--fill-color);
