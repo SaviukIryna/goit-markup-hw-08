@@ -83,22 +83,24 @@
 .our-links{
     margin-left: 70px;
     padding-bottom: 40px;
-    @media(max-width:1200px){
+    
+    @media(max-width:1199px){
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin-left: 80px;
         margin-right: 80px;
-
+margin-left: 150px;
 
 
     }
-    @media(max-width:768px){
+    @media(max-width:767px){
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
+        
 
     }
 }
