@@ -35,6 +35,10 @@
     border-radius: 2px;
     display: block;
     bottom: -32px;
+
+    @media (max-width: 1200px)  {
+        bottom: -24px;
+    }
     
     }
 
@@ -46,7 +50,7 @@
         
         
     }
-    .menu__navigation .menu__item{
+     .menu__item{
         margin-right: 50px;
         
         
