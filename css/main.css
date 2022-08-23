@@ -611,6 +611,11 @@ p {
   margin-right: 0;
 }
 
+@media (min-width: 1199px) {
+  .our-contacts {
+    margin-right: 70px;
+  }
+}
 @media (max-width: 1199px) {
   .our-contacts {
     display: -webkit-box;
@@ -626,7 +631,7 @@ p {
     text-align: center;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1199px) and (max-width: 767px) {
   .our-contacts {
     display: -webkit-box;
     display: -ms-flexbox;
