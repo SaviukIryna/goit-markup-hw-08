@@ -27,13 +27,17 @@
 }
 .team-header{
 
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--title-text-color);
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.1785714286;
+  text-align: center;
+
+  @media screen and (min-width: 1200px)
+{
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.1666666667;
+}
 
 
 
@@ -77,6 +81,9 @@
         width: 100%;
       }
 }
+
+
+
 .our-team-item:not(:last-child){
     margin-right: 10px;
    

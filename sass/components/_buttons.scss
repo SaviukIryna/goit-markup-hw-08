@@ -1,10 +1,11 @@
 .order-button{
-    display: inline-block;
+    display: flex;
     border: none;
     background-color: var(--accent);
     color: rgba(255, 255, 255, 1);
-    max-width: 200px;
-    width: 100%;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
     height: 50px;
     border-radius: 4px;
     font-style: normal;
@@ -13,6 +14,9 @@
     line-height: 1.9;
     letter-spacing: 0.06em;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
     
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     cursor: pointer;
@@ -44,7 +48,7 @@
 .buttons{
 
     display: flex;
-    gap: 8px;
+    gap: 15px 8px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: start;
@@ -86,14 +90,14 @@
     border-radius: 4px;
     
 }
-.buttons-item:not(:last-child){
-    margin-right: 8px;
+// .buttons-item:not(:last-child){
     
-}
+    
+// }
 
-.buttons-item{
+// .buttons-item{
   
-}
+// }
 
 .buttons :hover,
 .buttons :focus
@@ -130,16 +134,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.form-button{
-    display: block;
-    position: absolute;
-    left: 50%;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    @media screen and (min-width: 1200px) {
-        margin-left: 12px;
-   }}
+// .form-button{
+// }
 
    
    
