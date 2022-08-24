@@ -85,15 +85,17 @@
 .our-links{
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
+    margin-bottom: 60px;
    
     // padding-bottom: 30px;
 
     
-    @media(min-width:479px){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    // @media(min-width:479px){
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
         // margin: 0 auto;
         
 
@@ -104,4 +106,10 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-}}}
+        
+}
+@media(min-width:1200px){
+    margin-bottom: 0;
+    align-items: flex-start;
+}
+}

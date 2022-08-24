@@ -63,12 +63,14 @@ padding-right: 24px;
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0;
     width: 100%;
     height: 100%;
     padding: 64px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform 250ms;
+    transition: opacity 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
@@ -131,8 +133,10 @@ padding-right: 24px;
 {
     transform: translateY(0);
 }
-.our-works-link:focus  .our-works-overlay{
+.our-works-link:focus  .our-works-overlay,
+.our-works-link:hover  .our-works-overlay{
     transform: translateY(0);
+    opacity: 1;
 }
 
 .our-works-item:focus .our-works-overlay:focus

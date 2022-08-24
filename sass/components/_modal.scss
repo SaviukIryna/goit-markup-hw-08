@@ -1,15 +1,15 @@
 .modal{
     @media(min-width:320px ){
         width: 95%;
-        height: 95%;
+        height: auto;
         padding: 40px;
         overflow-y: auto;
         background-color:var(--body-bgd);
     
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     z-index: 3;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -17,18 +17,21 @@
     @media(min-width:768px){
     width: 528px;
     height: 580px;
-    padding: 40px;
-    overflow-y: auto;
-    background-color:var(--body-bgd);
+    // padding: 40px;
+    // overflow-y: auto;
+    // background-color:var(--body-bgd);
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 999;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // z-index: 999;
+    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    // border-radius: 4px;
     }
-    
+    @media(min-width:1200px){
+        top: 50%;
+        transform: translate(-50% ,-50%);
+    }
     
 }
